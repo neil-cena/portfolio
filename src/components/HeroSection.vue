@@ -1,4 +1,6 @@
 <script setup>
+const resumeUrl = new URL('../../Neil Allen T. Cena Resume.pdf', import.meta.url).href
+
 defineProps({
   profile: {
     type: Object,
@@ -31,6 +33,13 @@ defineProps({
           class="rounded-md border border-surface-border bg-surface-card px-4 py-2 text-sm font-semibold text-text-heading transition hover:border-primary-300 hover:text-primary-700"
         >
           LinkedIn
+        </a>
+        <a
+          :href="resumeUrl"
+          download="Neil_Allen_T_Cena_Resume.pdf"
+          class="rounded-md border border-primary-300 bg-primary-100 px-4 py-2 text-sm font-semibold text-primary-800 transition hover:bg-primary-200"
+        >
+          Download Resume
         </a>
       </div>
     </div>
