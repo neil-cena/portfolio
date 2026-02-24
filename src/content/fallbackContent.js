@@ -1,0 +1,105 @@
+export const fallbackContent = {
+  siteConfig: {
+    title: 'Neil Allen T. Cena | Senior Full-Stack Developer',
+    tagline: 'Clean, scalable, and recruiter-friendly web experiences',
+    socialLinks: {
+      linkedin: 'https://linkedin.com/in/neilallencena',
+      email: 'mailto:neilallencena@gmail.com',
+      phone: 'tel:+639499565745',
+    },
+  },
+  profile: {
+    name: 'Neil Allen T. Cena',
+    title: 'Senior Full-Stack Developer',
+    summary:
+      'Senior Full-Stack Developer and Licensed ECE with 5+ years modernizing legacy PHP systems with Vue.js interfaces. Strong in backend automation, scalable architecture, and practical product delivery.',
+    location: 'Tayabas City, Quezon',
+    email: 'neilallencena@gmail.com',
+    phone: '09499565745',
+    linkedin: 'https://linkedin.com/in/neilallencena',
+    photoURL: '',
+  },
+  experiences: [
+    {
+      id: 'rarejob-senior',
+      company: 'RareJob Philippines, Inc.',
+      location: 'Quezon City',
+      role: 'Senior Full-Stack Web Developer',
+      period: '2024 - Present',
+      order: 1,
+      bullets: [
+        'Engineered a recommendation system for tutor-student pairings and schedule windows.',
+        'Led AI-driven evaluation architecture using Gemini API across Flask, Yii, and Laravel codebases.',
+        'Built performance metrics engine for tutor scoring and quality assurance automation.',
+        'Implemented real-time lesson lifecycle notifications for tutors and students.',
+      ],
+    },
+    {
+      id: 'rarejob-fullstack',
+      company: 'RareJob Philippines, Inc.',
+      location: 'Quezon City',
+      role: 'Full-Stack Web Developer',
+      period: '2021 - 2024',
+      order: 2,
+      bullets: [
+        'Contributed to monolith-to-services migration with SSO integration.',
+        'Refactored and stabilized legacy systems while integrating new features.',
+        'Led department-wide modernization initiatives for older PHP applications.',
+        'Standardized developer workflows, coding standards, and onboarding documentation.',
+      ],
+    },
+    {
+      id: 'cafe24',
+      company: 'Cafe24 Philippines, Inc.',
+      location: 'Pasig City',
+      role: 'L1 Web Developer',
+      period: '2020 - 2021',
+      order: 3,
+      bullets: [
+        'Developed web applications focused on customer engagement and operations.',
+        'Integrated i18next localization into existing products for global readiness.',
+      ],
+    },
+  ],
+  skills: [
+    {
+      id: 'languages',
+      category: 'Programming Languages',
+      order: 1,
+      items: ['JavaScript', 'PHP', 'Python', 'SQL', 'Java'],
+    },
+    {
+      id: 'frameworks',
+      category: 'Frameworks and Libraries',
+      order: 2,
+      items: ['Vue.js', 'React.js', 'Laravel', 'Yii', 'Flask', 'Nest.js', 'Express.js'],
+    },
+    {
+      id: 'tools',
+      category: 'Tools and Platforms',
+      order: 3,
+      items: ['Git', 'Docker', 'AWS Services', 'Firebase'],
+    },
+  ],
+  projects: [],
+  education: [
+    {
+      id: 'slsu',
+      institution: 'Southern Luzon State University',
+      degree: 'BS in Electronics Engineering',
+      location: 'Lucban, Quezon',
+      date: 'May 2019',
+      order: 1,
+      highlights: ['Registered Electronics Engineer (October 2019)'],
+    },
+    {
+      id: 'google-cyber',
+      institution: 'Google',
+      degree: 'Cybersecurity Certificate',
+      location: 'Online',
+      date: 'February 2024',
+      order: 2,
+      highlights: [],
+    },
+  ],
+}
