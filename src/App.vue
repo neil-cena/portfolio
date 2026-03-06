@@ -1,6 +1,8 @@
 <script setup>
+import { Analytics } from '@vercel/analytics/vue';
 import { useScrollSpy } from './composables/useScrollSpy'
 import NavBar from './components/NavBar.vue'
+
 
 const sections = [
   { id: 'hero', label: 'About' },
@@ -15,6 +17,7 @@ const { activeSection } = useScrollSpy(sections.map((item) => item.id))
 </script>
 
 <template>
+  <Analytics />
   <NavBar :sections="sections" :active-section="activeSection" />
   <RouterView />
 </template>

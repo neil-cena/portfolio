@@ -12,7 +12,6 @@ defineProps({
 <template>
   <div class="grid gap-8 md:grid-cols-[1.2fr_0.8fr] md:items-center">
     <div>
-      <p class="text-sm font-semibold uppercase tracking-[0.2em] text-primary-700">Senior Full-Stack Developer</p>
       <h1 class="mt-3 text-3xl font-bold leading-tight text-text-heading sm:text-4xl">
         {{ profile.name }}
       </h1>
